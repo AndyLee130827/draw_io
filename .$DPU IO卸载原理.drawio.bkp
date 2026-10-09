@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="kDkCDZZTtgvxSstrgC8Y">
+    <mxGraphModel dx="1097" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;1、ASIC硬件逻辑电路将vhost Socket数据流转换为PCIe TLP报文，向Host PCIe总线呈现网络PF设备（含SR-IOV能力），使用vfio驱动切分后提供给云服务器使用，硬件协议卸载，DPU的CPU完全不介入数据路径。&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、控制器流表通过ovs-dpdk卸载到eSWITCH，虚机的网络数据包进入硬件eSWITCH进行转发，硬件转发效率高且无DPU的CPU。&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、由DPU的ARM Core运行SPDK对接 NVMe-oF/iSCSI/RDMA 远端存储，释放Host侧CPU资源，增加资源售卖率。&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="520" width="560" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-5" value="" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-6" value="PF" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-7" value="Host" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-8" value="DPU" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-14" value="VF" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-15" value="VF" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-16" value="VF" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-17" value="VF" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="205" y="570" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-19" value="CPU" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="255" y="530" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-9" value="vblk/nvme" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-10" value="vblk/nvme" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-21" value="SPDK" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="570" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-23" value="ASIC" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-11" value="vnet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-12" value="vnet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="460" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-25" value="OVS-DPDK" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="555" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq3QvOW2m3XXBg5r2Z1b-28" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="690" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

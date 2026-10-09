@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="Ryux2jVWeYe6W7JHAVqp">
+    <mxGraphModel dx="1062" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MKWSXQBQsCzAamf93G8_-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-8" value="Host" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MKWSXQBQsCzAamf93G8_-9" value="DPU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

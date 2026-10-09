@@ -1,0 +1,73 @@
+<mxfile host="Electron" modified="2024-02-27T02:37:52.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="7_VwoO6ii-HupHlDLJGT" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="8X_S5srGOJj_q06fKo_m">
+    <mxGraphModel dx="1434" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="68kcbBEB1qnucMhRpAhA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-2" target="68kcbBEB1qnucMhRpAhA-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-2" value="start_thread (arg=0x7fffe6633700) at pthread_create.c:307" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237.5" y="170" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-3" target="68kcbBEB1qnucMhRpAhA-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-3" value="virThreadHelper (data=&lt;optimized out&gt;) at util/virthread.c:206" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-4" target="68kcbBEB1qnucMhRpAhA-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-4" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="212.5" y="50" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-5" target="68kcbBEB1qnucMhRpAhA-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-5" value="virThreadPoolWorker (opaque=opaque@entry=0x5555557f4690) at util/virthreadpool.c:167" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="227.5" y="410" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-9" target="68kcbBEB1qnucMhRpAhA-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-9" value="virNetServerHandleJob (jobOpaque=&lt;optimized out&gt;, opaque=0x5555557f4e10) at rpc/virnetserver.c:164" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="257.5" y="530" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="68kcbBEB1qnucMhRpAhA-11" target="68kcbBEB1qnucMhRpAhA-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-11" value="virNetServerProcessMsg (msg=&amp;lt;optimized out&amp;gt;, prog=&amp;lt;optimized out&amp;gt;, client=&amp;lt;optimized out&amp;gt;, srv=0x5555557f4e10) at rpc/virnetserver.c:143" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="247.5" y="670" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="68kcbBEB1qnucMhRpAhA-13" target="68kcbBEB1qnucMhRpAhA-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-13" value="virNetServerProgramDispatch (prog=0x555555855580, server=server@entry=0x5555557f4e10, client=0x5555558585b0, msg=0x555555857b90) at rpc/virnetserverprogram.c:304" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="226" y="820" width="238" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt77rxD8m00Z5lwNl0zA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="68kcbBEB1qnucMhRpAhA-16" target="68kcbBEB1qnucMhRpAhA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-16" value="virNetServerProgramDispatchCall (msg=0x555555857b90, client=0x5555558585b0, server=0x5555557f4e10, prog=0x555555855580) at rpc/virnetserverprogram.c:437" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="222.5" y="990" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt77rxD8m00Z5lwNl0zA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68kcbBEB1qnucMhRpAhA-18" target="Bt77rxD8m00Z5lwNl0zA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68kcbBEB1qnucMhRpAhA-18" value="remoteDispatchDomainGetJobStatsHelper (server=0x5555557f4e10, client=&lt;optimized out&gt;, msg=0x555555857b90, rerr=0x7fffe6632c10, args=0x7fffdc001bc0, ret=0x7fffdc001b00) at remote/remote_daemon_dispatch_stubs.h:5956" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="197.5" y="1150" width="295" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt77rxD8m00Z5lwNl0zA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bt77rxD8m00Z5lwNl0zA-2" target="Bt77rxD8m00Z5lwNl0zA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt77rxD8m00Z5lwNl0zA-2" value="remoteDispatchDomainGetJobStats (server=0x5555557f4e10, msg=0x555555857b90, ret=0x7fffdc001b00, args=0x7fffdc001bc0, rerr=0x7fffe6632c10, client=&lt;optimized out&gt;) at remote/remote_daemon_dispatch.c:5273" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="1290" width="285" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bt77rxD8m00Z5lwNl0zA-4" value="virDomainGetJobStats (domain=domain@entry=0x7fffdc001b80, type=type@entry=0x7fffdc001b00, params=params@entry=0x7fffe6632ad8, nparams=nparams@entry=0x7fffe6632ad4, flags=0) at libvirt-domain.c:8749" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204.75" y="1450" width="281.25" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

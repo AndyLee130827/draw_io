@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2023-06-14T07:02:48.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="-DJLfMt0b1ektg6mM6Gv" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="oyp3ELx21TxG60384vbz">
+    <mxGraphModel dx="1026" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QaxLW2F_8sWPtdQfSPql-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QaxLW2F_8sWPtdQfSPql-1" target="QaxLW2F_8sWPtdQfSPql-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QaxLW2F_8sWPtdQfSPql-1" value="pypi库中的python模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaxLW2F_8sWPtdQfSPql-2" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QaxLW2F_8sWPtdQfSPql-5" value="适配添加支持loongarch64架构的代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

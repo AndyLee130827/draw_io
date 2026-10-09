@@ -1,0 +1,125 @@
+<mxfile host="Electron" modified="2023-06-13T07:12:19.083Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="Mx-sy-UoXqcAI6aF5gpx" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="A6lQoJM_yFquumnUtSCu">
+    <mxGraphModel dx="1853" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-1" target="ZFVyTiQHtY2AY5o3aWZW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-1" value="kylinv10 docker image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-2" target="ZFVyTiQHtY2AY5o3aWZW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-2" target="ZFVyTiQHtY2AY5o3aWZW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-2" target="ZFVyTiQHtY2AY5o3aWZW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-2" target="ZFVyTiQHtY2AY5o3aWZW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-2" target="ZFVyTiQHtY2AY5o3aWZW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-2" value="base os用于安装openstack各组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-3" target="ZFVyTiQHtY2AY5o3aWZW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-3" value="docker image（openstack-nova）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-4" target="ZFVyTiQHtY2AY5o3aWZW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-4" value="docker image&lt;br&gt;（openstack-cinder）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-5" target="ZFVyTiQHtY2AY5o3aWZW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-5" value="docker image&lt;br&gt;（openstack-neutron）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="380" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-8" target="ZFVyTiQHtY2AY5o3aWZW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-8" value="docker image&lt;br&gt;（openstack-libvirt+qemu）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-10" target="ZFVyTiQHtY2AY5o3aWZW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-10" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;docker image&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;.......&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="385" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-18" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-19" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-20" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-21" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-22" value="openstack集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-24" target="ZFVyTiQHtY2AY5o3aWZW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-24" value="Kubernetes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-25" target="ZFVyTiQHtY2AY5o3aWZW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-25" value="docker image&lt;br&gt;（openstack-helm）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="702.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-26" value="k8s部署openstack用到的&lt;br&gt;各组件的模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="710" width="205" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZFVyTiQHtY2AY5o3aWZW-35" target="ZFVyTiQHtY2AY5o3aWZW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-35" value="kylinv10 docker image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-36" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="620" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-17" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZFVyTiQHtY2AY5o3aWZW-43" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

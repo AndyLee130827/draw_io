@@ -1,0 +1,277 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="pc-hxQvPrQF1LcAvb66A">
+    <mxGraphModel dx="1103" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FP5OkfrQPV1t5vingHJA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;virtio_vdpa_device&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-5" target="FP5OkfrQPV1t5vingHJA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-5" value="vdev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-6" target="FP5OkfrQPV1t5vingHJA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-6" value="*vdpa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-7" value="features" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-8" value="spinlock_t lock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-9" target="FP5OkfrQPV1t5vingHJA-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-9" value="list_head virtqueues" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-10" value="virtio_device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="85" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-12" value="index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="115" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct device dev&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="145" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct virtio_device_id id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="175" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-15" target="FP5OkfrQPV1t5vingHJA-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="215" />
+              <mxPoint x="570" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-15" value="*config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-16" target="FP5OkfrQPV1t5vingHJA-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="245" />
+              <mxPoint x="540" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-16" value="list_head vqs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="235" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-17" value="virtio_vdpa_config_ops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;vdpa_device&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct device dev&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct device *dma_dev&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-30" target="FP5OkfrQPV1t5vingHJA-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="275" />
+              <mxPoint x="250" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-30" value="*config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-31" value="unsigned int index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-32" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;bool features_vaild&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-33" value="int nvqs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-34" value="struct device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-36" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct device *parent&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="95" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-37" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;void *driver_data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="125" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-38" target="FP5OkfrQPV1t5vingHJA-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="170" />
+              <mxPoint x="20" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-38" value="driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-42" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;vdpa_config_ops&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="475" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-43" value="@set_vq_address&lt;div&gt;@set_vq_num&lt;/div&gt;&lt;div&gt;@kick_vq&lt;/div&gt;&lt;div&gt;@set_vq_cb&lt;/div&gt;&lt;div&gt;@set_vq_ready&lt;br&gt;&lt;/div&gt;&lt;div&gt;@get_vq_ready&lt;br&gt;&lt;/div&gt;&lt;div&gt;@set_vq_state&lt;br&gt;&lt;/div&gt;&lt;div&gt;@get_vq_state&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="255" y="505" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-46" value="feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="265" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-47" value="*priv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="295" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-48" value="&lt;div&gt;.get = virtio_vdpa_get,&lt;/div&gt;&lt;div&gt;.set = virtio_vdpa_set,&lt;/div&gt;&lt;div&gt;.generation = virtio_vdpa_generation,&lt;/div&gt;&lt;div&gt;.get_status = virtio_vdpa_get_status,&lt;/div&gt;&lt;div&gt;.set_status = virtio_vdpa_set_status,&lt;/div&gt;&lt;div&gt;.reset = virtio_vdpa_reset,&lt;/div&gt;&lt;div&gt;.find_vqs&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;= virtio_vdpa_find_vqs,&lt;/div&gt;&lt;div&gt;.del_vqs = virtio_vdpa_del_vqs,&lt;/div&gt;&lt;div&gt;.get_features = virtio_vdpa_get_features,&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;.finalize_features = virtio_vdpa_finalize_features,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;.bus_name = virtio_vdpa_bus_name,&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="95" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-50" value="vdpa_driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-51" target="FP5OkfrQPV1t5vingHJA-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="325" />
+              <mxPoint x="20" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-51" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;struct device_driver driver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-52" value="remove" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-53" value="probe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-55" value="device_driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-56" value="const char *name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-57" target="FP5OkfrQPV1t5vingHJA-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-57" value="struct bus_types *bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-58" value="struct driver_private *p" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-59" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-61" value="device_driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-63" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;virtio_vdpa_vq_info&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="445" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-64" target="FP5OkfrQPV1t5vingHJA-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-64" value="struct virtqueue *vp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="475" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-65" target="FP5OkfrQPV1t5vingHJA-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="520" />
+              <mxPoint x="540" y="580" />
+              <mxPoint x="410" y="580" />
+              <mxPoint x="410" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-65" value="struct list_head node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="505" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-66" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;virtio_vdpa_device&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="635" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-67" value="struct virtqueue *vp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="665" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-68" value="struct list_head node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="695" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-71" value="virtqueue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-73" value="struct list_headlist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-74" value="cost char *name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-75" target="FP5OkfrQPV1t5vingHJA-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="495" />
+              <mxPoint x="560" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-75" value="virt_device *vdev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-76" value="unsigned int index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-77" value="*priv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-78" value="*callback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-79" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;vring_virtqueue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="630" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-80" target="FP5OkfrQPV1t5vingHJA-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="675" />
+              <mxPoint x="720" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FP5OkfrQPV1t5vingHJA-80" target="FP5OkfrQPV1t5vingHJA-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-80" value="struct virtqueue *vp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-81" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="690" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-88" value="这里的ops就是virtio-pci的ops" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-89" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;vq链表中保存的就是一些列的virtqueue，这些vq是在&lt;span style=&quot;text-align: left;&quot;&gt;virtio_vdpa_find_vqs中被初始化的&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="425" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FP5OkfrQPV1t5vingHJA-90" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;这些操作函数都是corsica vdpa的操作函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="660" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

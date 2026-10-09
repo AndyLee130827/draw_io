@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-06-08T07:40:52.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OMpP2_sSzUHZleh_o4_U" version="21.3.7" type="device">
+  <diagram name="第 1 页" id="tKePdw6CQS4FsYWycG2T">
+    <mxGraphModel dx="2131" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-2" target="NZ92JO_gUYLSeEsvhsq0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-2" value="exec libvirtd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-3" target="NZ92JO_gUYLSeEsvhsq0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-3" target="NZ92JO_gUYLSeEsvhsq0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-3" target="NZ92JO_gUYLSeEsvhsq0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-3" value="virQEMUCapsLoadCache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-4" value="virQEMUCapsLoadHostCPUModelInfo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="247.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-7" value="在这个函数中将/var/cache/libvirt/qemu/capabilities/中x86架构下kvm的所有property缓存到qemuCaps变量中；" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="183.75" width="240" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-8" value="virQEMUCapsLoadCPUModels" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="240" width="247.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-10" value="这个函数将/var/cache/libvirt/qemu/capabilities/中的&amp;lt;cpu&amp;gt;标签下的信息load到出来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="245" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-11" target="NZ92JO_gUYLSeEsvhsq0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-11" value="virQEMUCapsInitHostCPUModel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-12" target="NZ92JO_gUYLSeEsvhsq0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-12" value="virQEMUCapsInitCPUModel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-13" target="NZ92JO_gUYLSeEsvhsq0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-13" value="virQEMUCapsInitCPUModelX86" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-14" target="NZ92JO_gUYLSeEsvhsq0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-14" value="cpuDecode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="630" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZ92JO_gUYLSeEsvhsq0-15" target="NZ92JO_gUYLSeEsvhsq0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-15" value="driver-&amp;gt;decode(cpu, data, models)&lt;br&gt;x86DecodeCPUData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="730" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NZ92JO_gUYLSeEsvhsq0-16" value="x86Decode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="830" width="360" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

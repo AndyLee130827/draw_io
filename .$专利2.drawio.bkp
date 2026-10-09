@@ -1,0 +1,22 @@
+<mxfile host="Electron" modified="2023-06-12T11:47:55.177Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="iM7NBkYj3iE1JrufiLT3" version="21.1.2" type="device">
+  <diagram name="第 1 页" id="d4V2vUMQeZ6KrIqVZwg2">
+    <mxGraphModel dx="1026" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t7Wt6yg1M3rHdvjnjZlY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t7Wt6yg1M3rHdvjnjZlY-1" target="t7Wt6yg1M3rHdvjnjZlY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7Wt6yg1M3rHdvjnjZlY-1" value="kylinv10 docker image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t7Wt6yg1M3rHdvjnjZlY-3" value="loongarch64架构定制版openstack组件依赖库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t7Wt6yg1M3rHdvjnjZlY-4" value="用于安装openstack各组件的base os" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

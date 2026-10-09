@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2024-03-22T03:07:57.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="TI2bvVK7utMMyxM-TC22" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="4CZujmnoXUTf972VsoOE">
+    <mxGraphModel dx="2261" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-1" target="18uyYAaJe0WN5ZO5eROU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-1" target="18uyYAaJe0WN5ZO5eROU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-1" value="virConnectOpenInternal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-2" target="18uyYAaJe0WN5ZO5eROU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-2" value="virGetConnect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-3" target="18uyYAaJe0WN5ZO5eROU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-3" value="virGetConnect中通过一个宏“VIR_ONCE_GLOBAL_INIT”调用virDataTypesOnceInit初始化虚机相关的对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1113.62" y="330" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-4" value="virClassNew函数对下列对象进行初始化：&lt;br&gt;&lt;div&gt;&lt;div&gt;virClassPtr virConnectClass virConnect&lt;/div&gt;&lt;div&gt;virClassPtr virConnectCloseCallbackDataClass virConnectCloseCallbackData&lt;/div&gt;&lt;div&gt;virClassPtr virDomainClass virDomain&lt;/div&gt;&lt;div&gt;virClassPtr virDomainSnapshotClass virDomainSnapshot&lt;/div&gt;&lt;div&gt;virClassPtr virInterfaceClass virInterface&lt;/div&gt;&lt;div&gt;virClassPtr virNetworkClass virNetwork&lt;/div&gt;&lt;div&gt;virClassPtr virNodeDeviceClass virNodeDevice&lt;/div&gt;&lt;div&gt;virClassPtr virNWFilterClass virNWFilter&lt;/div&gt;&lt;div&gt;virClassPtr virNWFilterBindingClass virNWFilterBinding&lt;/div&gt;&lt;div&gt;virClassPtr virSecretClass virSecret&lt;/div&gt;&lt;div&gt;virClassPtr virStreamClass virStream&lt;/div&gt;&lt;div&gt;virClassPtr virStorageVolClass virStorageVol&lt;/div&gt;&lt;div&gt;virClassPtr virStoragePoolClass virStoragePool&lt;/div&gt;&lt;div&gt;virClassPtr virAdmConnectClass virAdmConnect&lt;/div&gt;&lt;div&gt;virClassPtr virAdmConnectCloseCallbackDataClass virAdmConnectCloseCallbackData&lt;/div&gt;&lt;div&gt;virClassPtr virAdmServerClass virAdmServer&lt;/div&gt;&lt;div&gt;virClassPtr virAdmClientClass virAdmClient&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="968" y="430" width="480" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-11" target="18uyYAaJe0WN5ZO5eROU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-11" target="18uyYAaJe0WN5ZO5eROU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-11" value="virConnectOpenReadOnly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-12" target="18uyYAaJe0WN5ZO5eROU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-12" value="virInitialize" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-15" target="18uyYAaJe0WN5ZO5eROU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-15" value="virGlobalInit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-16" target="18uyYAaJe0WN5ZO5eROU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-16" value="remoteRegister" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-17" value="virRegisterConnectDriver函数的第一个参数就是remote驱动中用于操作各种对象的函数集合：&lt;br&gt;&lt;div&gt;virRegisterConnectDriver(&amp;amp;connect_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;false) &amp;lt; 0)&lt;/div&gt;&lt;div&gt;&lt;div&gt;static virConnectDriver connect_driver = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .hypervisorDriver = &amp;amp;hypervisor_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .interfaceDriver = &amp;amp;interface_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .networkDriver = &amp;amp;network_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .nodeDeviceDriver = &amp;amp;node_device_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .nwfilterDriver = &amp;amp;nwfilter_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .secretDriver = &amp;amp;secret_driver,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; .storageDriver = &amp;amp;storage_driver,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-207.5" y="570" width="275" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-18" target="18uyYAaJe0WN5ZO5eROU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-18" value="将不同的驱动加入到指针数组“virConnectDriverTab”中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-23" target="18uyYAaJe0WN5ZO5eROU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-23" target="18uyYAaJe0WN5ZO5eROU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-23" value="for (i = 0; i &amp;lt; virConnectDriverTabCount; i++)中找到数组“virConnectDriverTab”中remote驱动，将之前组册到remote驱动中的各对象处理函数传递给返回值；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="335" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-24" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;driver = virConnectDriverTab[i]-&amp;gt;hypervisorDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;interfaceDriver = virConnectDriverTab[i]-&amp;gt;interfaceDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;networkDriver = virConnectDriverTab[i]-&amp;gt;networkDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;nodeDeviceDriver = virConnectDriverTab[i]-&amp;gt;nodeDeviceDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;nwfilterDriver = virConnectDriverTab[i]-&amp;gt;nwfilterDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;secretDriver = virConnectDriverTab[i]-&amp;gt;secretDriver;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ret-&amp;gt;storageDriver = virConnectDriverTab[i]-&amp;gt;storageDriver;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="425" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-28" target="18uyYAaJe0WN5ZO5eROU-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-28" value="res = virConnectDriverTab[i]-&amp;gt;hypervisorDriver-&amp;gt;connectOpen(ret, auth, conf, flags);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-30" value="remoteConnectOpen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18uyYAaJe0WN5ZO5eROU-32" target="18uyYAaJe0WN5ZO5eROU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18uyYAaJe0WN5ZO5eROU-32" value="执行remote驱动中connect函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
